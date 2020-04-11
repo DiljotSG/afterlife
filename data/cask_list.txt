@@ -6,7 +6,6 @@ microsoft-edge
 mountain-duck
 rectangle
 rocket
-sekey
 signal
 spotify
 tableplus
