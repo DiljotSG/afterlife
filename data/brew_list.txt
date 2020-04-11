@@ -1,0 +1,9 @@
+git
+python
+rsync
+speedtest-cli
+tmux
+vim
+wget
+yarn
+youtube-dl
