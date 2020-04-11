@@ -8,7 +8,6 @@ rectangle
 rocket
 signal
 spotify
-tableplus
 typora
 unified-remote
 visual-studio-code
