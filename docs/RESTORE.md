@@ -133,7 +133,6 @@ You can install most of your needed applications from the App Store or by using 
 - [DuckDuckGo (Safari)](https://apps.apple.com/ca/app/duckduckgo-privacy-essentials/id1482920575?mt=12)
 - [GoodNotes](https://apps.apple.com/ca/app/goodnotes-5-notes-pdf/id1480793815?mt=12)
 - [Keynote](https://apps.apple.com/ca/app/keynote/id409183694?mt=12)
-- [Library Access (Safari)](https://apps.apple.com/ca/app/library-access/id1480670663?mt=12)
 - [Messenger](https://apps.apple.com/ca/app/messenger/id1480068668?mt=12)
 - [Microsoft Office](https://apps.apple.com/ca/app-bundle/microsoft-office-365/id1450038993?mt=12)
   - Get only what you need :wink:.
@@ -183,7 +182,6 @@ Install the following extensions (at your discretion, you might not want all of 
 - [Browser Fairy](https://chrome.google.com/webstore/detail/browser-fairy/ihfblkkmkmcgejfkgmkiipplonimjnec)
 - [DuckDuckGo](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg)
 - [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
-- [Library Access](https://chrome.google.com/webstore/detail/library-access/hghakoefmnkhamdhenpbogkeopjlkpoa)
 - [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 
 #### Browser Fairy Setup :sparkles:
