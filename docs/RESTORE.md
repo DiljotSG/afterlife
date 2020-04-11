@@ -148,7 +148,7 @@ You can install most of your needed applications from the App Store or by using 
 - [Wipr (Safari)](https://apps.apple.com/ca/app/wipr/id1320666476?mt=12)
 - [Xcode](https://apps.apple.com/ca/app/xcode/id497799835?mt=12)
 
-You can install the remainder of your applications with Brew Cask and Brew. There are two scripts in the `scripts` folder in this repo for installing your casks and brews automatically.
+You can install the remainder of your applications with Brew and Brew Cask. There are two scripts in the `scripts` folder in this repo for installing your brews and casks automatically.
 
 You should review the list of brews and casks in the `docs` folder respectively before running these commands.
 
@@ -163,7 +163,7 @@ cd <path to repo>/scripts
 
 ### Installing Casks :beers:
 
-[Cask List](../data/brew_cask_list.txt).
+[Cask List](../data/cask_list.txt).
 
 ```shell
 cd <path to repo>/scripts

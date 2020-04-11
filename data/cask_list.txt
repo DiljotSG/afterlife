@@ -1,17 +1,10 @@
-appcleaner
-balenaetcher
 cyberduck
 discord
 iina
-imageoptim
 iterm2
-itsycal
-java
-macmediakeyforwarder
 microsoft-edge
-protonvpn
+mountain-duck
 rectangle
-ring
 rocket
 sekey
 signal
@@ -19,6 +12,4 @@ spotify
 tableplus
 typora
 unified-remote
-unshaky
-vanilla
 visual-studio-code
