@@ -1,6 +1,3 @@
-cyberduck
-discord
-iina
 iterm2
 logitech-options
 microsoft-edge
