@@ -3,7 +3,6 @@
 # Directory setup
 mkdir ~/Developer
 mkdir ~/Developer/Git
-mkdir ~/.ssh
 
 # Remove existing files (if they exist)
 rm ~/.zshrc

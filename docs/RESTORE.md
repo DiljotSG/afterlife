@@ -101,7 +101,7 @@ You can repeat these instructions for other hosts you might want keys for (other
 
 ### Configuration Setup
 
-Run the following configuration setup script, this will link the dotfiles on your system back to the ones in this git repo among other stuff.
+Run the following configuration setup script, this will link the dotfiles on your system back to the ones in this git repo along with creating your folder structure.
 
 ```shell
 cd ~/.afterlife/scripts
