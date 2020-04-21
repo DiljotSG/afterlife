@@ -114,7 +114,7 @@ You can install most of your needed applications from the App Store or by using 
 
 **Note**: This is not a list of all the application you ever need/use, just the basics, it includes most of them. Some applications have been excluded from this list, if you ever need those ones, visit the App Store and manually install them (see your purchases for other apps you haven't installed).
 
-### App Store Application List (includes Safari Extensions): :apple:
+### App Store Application List (includes Safari Extensions): 🍎
 
 - [1Blocker (Safari)](https://apps.apple.com/ca/app/1blocker-for-safari/id1107421413?mt=12)
 - [Affinity Photo](https://apps.apple.com/ca/app/affinity-photo/id824183456?mt=12)
@@ -125,7 +125,7 @@ You can install most of your needed applications from the App Store or by using 
 - [Keynote](https://apps.apple.com/ca/app/keynote/id409183694?mt=12)
 - [Messenger](https://apps.apple.com/ca/app/messenger/id1480068668?mt=12)
 - [Microsoft Office](https://apps.apple.com/ca/app-bundle/microsoft-office-365/id1450038993?mt=12)
-  - Get only what you need :wink:.
+  - Get only what you need 😉.
 - [Numbers](https://apps.apple.com/ca/app/numbers/id409203825?mt=12)
 - [Pages](https://apps.apple.com/ca/app/pages/id409201541?mt=12)
 - [Slack](https://apps.apple.com/ca/app/slack/id803453959?mt=12)
@@ -141,7 +141,7 @@ You can install the remainder of your applications with Brew and Brew Cask. Ther
 
 You should review the list of brews and casks in the `docs` folder respectively before running these commands.
 
-### Installing Brews :beer:
+### Installing Brews 🍺
 
 [Brew List](../data/brew_list.txt).
 
@@ -150,7 +150,7 @@ cd ~/.afterlife/scripts
 ./install_brews.sh
 ```
 
-### Installing Casks :beers:
+### Installing Casks 🍻
 
 [Cask List](../data/cask_list.txt).
 
@@ -159,9 +159,9 @@ cd ~/.afterlife/scripts
 ./install_casks.sh
 ```
 
-### Microsoft Edge Setup :balance_scale:
+### Microsoft Edge Setup ⚖️
 
-Install the following extensions (at your discretion, you might not want all of them :smile:). This list is mostly here since Microsoft hasn't built in extension sync yet (oof).
+Install the following extensions (at your discretion, you might not want all of them 😄). This list is mostly here since Microsoft hasn't built in extension sync yet (oof).
 
 - [Microsoft Editor (Optional)](https://microsoftedge.microsoft.com/addons/detail/hokifickgkhplphjiodbggjmoafhignh)
 - [1Password Desktop](https://chrome.google.com/webstore/detail/1password-extension-deskt/aomjjhallfgjeglblehebfpbcfeobpgk)
@@ -170,15 +170,11 @@ Install the following extensions (at your discretion, you might not want all of 
 - [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp)
 - [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 
-#### Browser Fairy Setup :sparkles:
-
-At this point you can also setup your Browser Fairy config. ![Browser Fairy Config](../data/browser_fairy_config.png)
-
-## Reset Launchpad :arrow_right_hook:
+## Reset Launchpad ↪️
 
 Now that you've installed everything you need (you'll still need to setup most individual apps, but that's not hard and just a matter of doing it when you open the app for the first time).
 
-Resetting your launchpad layout is a good idea so that everything you've installed is back to a nice alphabetized list :sweat_smile:.
+Resetting your launchpad layout is a good idea so that everything you've installed is back to a nice alphabetized list 😅.
 
 ```shell
 defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
