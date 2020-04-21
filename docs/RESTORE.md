@@ -35,6 +35,11 @@ npm install -g spaceship-prompt
 
 To get all the functionality of the Spaceship prompt, you need to install the FiraCode font. Follow the instructions [here](https://github.com/tonsky/FiraCode/wiki/Installing).
 
+```shell
+brew tap homebrew/cask-fonts
+brew cask install font-fira-code
+```
+
 ### Setting up SSH Keys :key:
 
 **Note**: Since this involves interfacing with GitHub, you will likely need to setup 1Password and other applications first. I will leave the order of operations up to your discretion :wink:.
@@ -48,36 +53,6 @@ Follow the instructions from the SeKey [readme](https://github.com/sekey/sekey).
 ```shell
 brew cask install sekey
 ```
-
-#####  Append the following line to `~/.zshrc`
-
-I added this to the top actually :smirk:.
-
-```shell
-export SSH_AUTH_SOCK=$HOME/.sekey/ssh-agent.ssh
-```
-
-##### Create a `~/.ssh/config`
-
-```shell
-IdentityAgent ~/.sekey/ssh-agent.ssh
-
-Host github.com
-  User diljotsg
-  Hostname github.com
-  IdentityFile ~/.ssh/id_github.pub
-  IdentitiesOnly yes
-
-Host aviary.cs.umanitoba.ca
-  User garchads
-  Hostname aviary.cs.umanitoba.ca
-
-Host rodents.cs.umanitoba.ca
-  User garchads
-  Hostname rodents.cs.umanitoba.ca
-```
-
-**Note**: We will have to create the SSH keys referenced in the config file above later. The first line of this file is what we had to add to use SeKey.
 
 #### Generating SSH Keys with SeKey
 
@@ -108,14 +83,14 @@ Now copy the contents of the Public Key and add it to your SSH keys in the GitHu
 
 You can repeat these instructions for other hosts you might want keys for (other than GitHub).
 
-## Directory Setup :file_folder:
+### Configuration Setup
 
-Create the `Developer` folder within the user folder and add it to your sidebar. Inside here create a `Git` folder (this is where you will clone Git repos).
+Run the following configuration setup script, this will link the dotfiles back to the ones in this git repo among other stuff.
 
-These are the two folders you want to create.
-
-- `/Users/diljot/Developer`
-- `/Users/diljot/Developer/Git`
+```shell
+cd <path to repo>/scripts
+./setup.sh
+```
 
 ## Application Setup
 
@@ -147,7 +122,7 @@ You can install most of your needed applications from the App Store or by using 
 - [Wipr (Safari)](https://apps.apple.com/ca/app/wipr/id1320666476?mt=12)
 - [Xcode](https://apps.apple.com/ca/app/xcode/id497799835?mt=12)
 
-You can install the remainder of your applications with Brew and Brew Cask. There are two scripts in the `scripts` folder in this repo for installing your brews and casks automatically.
+You can install the remainder of your applications with Brew and Brew Cask. There are some scripts in the `scripts` folder in this repo for installing your brews and casks automatically.
 
 You should review the list of brews and casks in the `docs` folder respectively before running these commands.
 

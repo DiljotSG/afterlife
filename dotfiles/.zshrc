@@ -1,6 +1,9 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+ZSH_DISABLE_COMPFIX=true
+export SSH_AUTH_SOCK=$HOME/.sekey/ssh-agent.ssh
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/diljot/.oh-my-zsh"
 
@@ -108,6 +111,7 @@ alias typora="open -a typora"
 # Directory aliases
 alias to-duck="cd ~/Library/Group\ Containers/G69SCX94XU.duck/Library/Application\ Support/duck/Volumes"
 alias to-git="cd ~/Developer/Git"
+alias to-uni="cd ~/OneDrive/Documents/School/University"
 alias to-comp3430="cd ~/Developer/Git/comp3430"
 alias to-comp3010="cd ~/Developer/Git/comp3010"
 alias to-throne="cd ~/Developer/Git/Throne"
