@@ -139,7 +139,7 @@ You can install most of your needed applications from the App Store or by using 
 
 You can install the remainder of your applications with Brew and Brew Cask. There are some scripts in the `scripts` folder in this repo for installing your brews and casks automatically.
 
-You should review the list of brews and casks in the `docs` folder respectively before running these commands.
+You should review the list of brews and casks in the `data` folder respectively before running these commands.
 
 ### Installing Brews 🍺
 
