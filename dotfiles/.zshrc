@@ -120,3 +120,4 @@ alias workon-backend="to-throne
                       cd Backend
                       . venv/bin/activate
                       export FLASK_ENV=development"
+alias reset-lp="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"

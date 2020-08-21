@@ -1,7 +1,10 @@
+appcleaner
+imageoptim
 iterm2
 logitech-options
 microsoft-edge
 mountain-duck
+notion
 rectangle
 rocket
 signal
