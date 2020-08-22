@@ -1,20 +1,17 @@
 #!/bin/sh
 
 echo "Starting configuration..."
-# Directory setup
 echo "Creating directories..."
 mkdir ~/Developer
 mkdir ~/Developer/Git
 echo "[DIRECTORIES] Done!"
 
-# Remove existing config files (if they exist)
 echo "Removing existing config files..."
 rm ~/.zshrc
 rm ~/.ssh/config
 rm ~/.gitconfig
 echo "[CLEAN UP] Done!"
 
-# Link config files
 echo "Linking configuration files..."
 ln -s ~/.afterlife/dotfiles/.zshrc ~/.zshrc
 ln -s ~/.afterlife/dotfiles/.ssh_config ~/.ssh/config
@@ -37,7 +34,7 @@ done <./data/cask_list.txt
 echo "[CASK] Done!"
 
 echo "Installing mac app store apps..."
-brew tap homebrew/cask-drivers
+brew install mas
 while read p; do
   mas install "$p"
 done <./data/mas_list.txt
