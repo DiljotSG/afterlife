@@ -42,6 +42,7 @@ echo "[MAS] Done!"
 echo "Application install done!"
 
 echo "Resetting launchpad..."
+source ~/.zshrc
 reset-lp
 
 echo "Finished!"
