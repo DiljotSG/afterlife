@@ -3,7 +3,6 @@ imageoptim
 iterm2
 logitech-options
 microsoft-edge
-mountain-duck
 notion
 rectangle
 rocket
@@ -11,3 +10,4 @@ signal
 spotify
 typora
 visual-studio-code
+https://raw.githubusercontent.com/Homebrew/homebrew-cask/377d83bdd5a6aecc754db6b9eee3405e3e3d5ece/Casks/mountain-duck.rb
