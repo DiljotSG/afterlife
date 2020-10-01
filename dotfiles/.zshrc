@@ -121,3 +121,5 @@ alias workon-backend="to-throne
                       . venv/bin/activate
                       export FLASK_ENV=development"
 alias reset-lp="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"
+alias to-comp4140="cd ~/Developer/Git/comp4140"
+alias to-comp3490="cd ~/Developer/Git/comp3490"
