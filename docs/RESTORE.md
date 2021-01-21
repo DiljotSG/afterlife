@@ -33,7 +33,7 @@ To get all the functionality of the Spaceship prompt, you need to install the Fi
 
 ```shell
 brew tap homebrew/cask-fonts
-brew cask install font-fira-code
+brew install font-fira-code --cask
 ```
 
 You'll now have to set this as the default font in `terminal.app` and `iTerm.app` (when you install that).
@@ -53,7 +53,7 @@ Follow the instructions from the SeKey [readme](https://github.com/sekey/sekey).
 ##### Installation of SeKey
 
 ```shell
-brew cask install sekey
+brew install sekey --cask
 ```
 
 #### Generating SSH Keys with SeKey
@@ -87,7 +87,7 @@ cd ~
 
 # Use a temporary SSH config for cloning the afterlife repo
 brew install wget
-wget -O ~/.ssh/config https://gh.diljot.dev/afterlife/data/short_ssh_config.txt
+wget -O ~/.ssh/config https://gh.diljot.dev/afterlife/data/personal/short_ssh_config.txt
 
 # Clone the repo to ~/.afterlife
 git clone git@github.com:DiljotSG/afterlife.git .afterlife

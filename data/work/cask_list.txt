@@ -1,0 +1,13 @@
+appcleaner
+cyberduck
+iterm2
+logitech-options
+google-chrome
+microsoft-edge
+firefox
+rectangle
+rocket
+spotify
+typora
+visual-studio-code
+zoomus
