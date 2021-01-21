@@ -107,6 +107,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias typora="open -a typora"
+alias mt="open -a \"mark text\""
 
 # Directory aliases
 alias to-duck="cd ~/Library/Group\ Containers/G69SCX94XU.duck/Library/Application\ Support/duck/Volumes"

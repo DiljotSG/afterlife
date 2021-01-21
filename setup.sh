@@ -29,7 +29,7 @@ echo "[BREW] Done!"
 echo "Installing casks..."
 brew tap homebrew/cask-drivers
 while read p; do
-  brew cask install "$p"
+  brew install "$p" --cask
 done <./data/cask_list.txt
 echo "[CASK] Done!"
 
