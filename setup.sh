@@ -32,9 +32,9 @@ rm ~/.gitconfig
 echo "[CLEAN UP] Done!"
 
 echo "Linking configuration files..."
-ln -s ~/.afterlife/dotfiles/.zshrc ~/.zshrc
-ln -s ~/.afterlife/dotfiles/.ssh_config ~/.ssh/config
-ln -s ~/.afterlife/dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/.afterlife/dotfiles/$mode/.zshrc ~/.zshrc
+ln -s ~/.afterlife/dotfiles/$mode/.ssh_config ~/.ssh/config
+ln -s ~/.afterlife/dotfiles/$mode/.gitconfig ~/.gitconfig
 echo "[CONFIG] Done!"
 echo "Configuration done!"
 

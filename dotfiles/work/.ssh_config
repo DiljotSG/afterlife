@@ -1,0 +1,7 @@
+IdentityAgent ~/.sekey/ssh-agent.ssh
+
+Host github.com
+  User diljotsg
+  Hostname github.com
+  IdentityFile ~/.ssh/id_github.pub
+  IdentitiesOnly yes

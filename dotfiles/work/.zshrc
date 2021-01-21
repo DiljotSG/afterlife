@@ -107,20 +107,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Aliases
 alias typora="open -a typora"
-alias mt="open -a \"mark text\""
 
 # Directory aliases
-alias to-duck="cd ~/Library/Group\ Containers/G69SCX94XU.duck/Library/Application\ Support/duck/Volumes"
 alias to-git="cd ~/Developer/Git"
-alias to-uni="cd ~/OneDrive/Documents/School/University"
-alias to-comp3430="cd ~/Developer/Git/comp3430"
-alias to-comp3010="cd ~/Developer/Git/comp3010"
-alias to-throne="cd ~/Developer/Git/Throne"
 alias activate=". venv/bin/activate"
-alias workon-backend="to-throne
-                      cd Backend
-                      . venv/bin/activate
-                      export FLASK_ENV=development"
 alias reset-lp="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"
-alias to-comp4140="cd ~/Developer/Git/comp4140"
-alias to-comp3490="cd ~/Developer/Git/comp3490"
