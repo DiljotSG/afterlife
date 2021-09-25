@@ -11,3 +11,4 @@ signal
 spotify
 typora
 visual-studio-code
+protonvpn
