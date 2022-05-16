@@ -1,15 +1,2 @@
-IdentityAgent ~/.sekey/ssh-agent.ssh
-
-Host github.com
-  User diljotsg
-  Hostname github.com
-  IdentityFile ~/.ssh/id_github.pub
-  IdentitiesOnly yes
-
-Host aviary.cs.umanitoba.ca
-  User garchads
-  Hostname aviary.cs.umanitoba.ca
-
-Host rodents.cs.umanitoba.ca
-  User garchads
-  Hostname rodents.cs.umanitoba.ca
+Host *
+  IdentityAgent "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
