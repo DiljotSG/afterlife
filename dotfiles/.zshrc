@@ -108,3 +108,5 @@ alias typora="open -a typora"
 
 # Directory aliases
 alias to-git="cd ~/Developer/Git"
+
+alias reset-lp="defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock"
