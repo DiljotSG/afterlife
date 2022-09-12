@@ -3,5 +3,12 @@
 # Please adapt and uncomment the following lines:
 	name = Diljot Garcha
 	email = tech.github@diljot.garcha.dev
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMq/S5wjmEl5UGCNPBza+Lk0hMw+pyS+H/Wle9Of15bK
 [pull]
 	rebase = false
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
