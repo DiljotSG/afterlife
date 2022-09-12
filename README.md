@@ -1,9 +1,6 @@
 # afterlife
 An onboarding procedure for my personal machine.
 
-TODO: May 16, 2022: This repo needs updating!
-
-
 
 ## Documentation
 

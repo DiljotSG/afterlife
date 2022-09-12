@@ -1,7 +1,0 @@
-# This is Git's per-user configuration file.
-[user]
-# Please adapt and uncomment the following lines:
-	name = Diljot Garcha
-	email = diljot.garcha@d2l.com
-[pull]
-	rebase = false

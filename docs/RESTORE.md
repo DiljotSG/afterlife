@@ -42,62 +42,24 @@ You'll now have to set this as the default font in `terminal.app` and `iTerm.app
 
 #### 1Password Setup 🔐
 
-1. Install 1Password from the [App Store](https://apps.apple.com/ca/app/1password-7-password-manager/id1333542190?mt=12).
+1. Install 1Password using Homebrew.
+
+```shell
+brew install 1Password --cask
+```
 
 2. Find your [Setup Code](https://support.1password.com/secret-key/#ios) from the iOS client to make logging in easier on the Mac (You might not need to do this as iCloud tends to remember your setup code).
 
-#### Setting up SeKey
-
-Follow the instructions from the SeKey [readme](https://github.com/sekey/sekey).
-
-##### Installation of SeKey
-
-```shell
-brew install sekey --cask
-```
-
-#### Generating SSH Keys with SeKey
-
-Generate an SSH key using SeKey, this one will be used to interface with GitHub.
-
-```shell
-sekey --generate-keypair "GitHub Key"
-```
-
-List the keys stored in the secure enclave.
-
-```shell
-sekey --list-keys
-```
-
-Export the GitHub Public Key to a file.
-
-```shell
-mkdir ~/.ssh
-cd ~/.ssh
-sekey --export-key [Key ID (must be copied when you list keys)] > ~/.ssh/id_github.pub
-```
-
-**Now copy the contents of the Public Key and add it to your SSH keys in the GitHub Settings. Be sure to delete any unused SSH keys at this point.**
+3. Setup the 1Password SSH Agent, as [described here](https://developer.1password.com/docs/ssh/get-started#step-3-turn-on-the-1password-ssh-agent).
 
 #### Clone the `afterlife` repo and continue with setup using the new SSH key
 
 ```shell
 cd ~
 
-# Use a temporary SSH config for cloning the afterlife repo
-brew install wget
-wget -O ~/.ssh/config https://gh.diljot.dev/afterlife/data/personal/short_ssh_config.txt
-
 # Clone the repo to ~/.afterlife
 git clone git@github.com:DiljotSG/afterlife.git .afterlife
 ```
-
-#### Other: Generating SSH Keys (Standard Method)
-
-[Generating SSH Keys in a more standard way](https://docs.gitlab.com/ee/ssh/README.html#generating-a-new-ssh-key-pair).
-
-You can repeat these instructions for other hosts you might want keys for (other than GitHub).
 
 ### Configuration Setup and Application install
 

@@ -1,13 +1,12 @@
-appcleaner
-cyberduck
+imageoptim
 iterm2
 logitech-options
-google-chrome
 microsoft-edge
-firefox
 rectangle
 rocket
+signal
 spotify
 typora
 visual-studio-code
+protonvpn
 zoomus
