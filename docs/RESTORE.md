@@ -24,7 +24,7 @@ Follow the instructions from the spaceship prompt [readme](https://github.com/de
 
 ```shell
 brew install node
-npm install -g spaceship-prompt
+brew install spaceship
 ```
 
 #### Font Setup

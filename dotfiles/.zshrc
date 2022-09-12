@@ -2,7 +2,6 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 ZSH_DISABLE_COMPFIX=true
-export SSH_AUTH_SOCK=$HOME/.sekey/ssh-agent.ssh
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/diljot/.oh-my-zsh"
@@ -101,9 +100,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-  # Set Spaceship ZSH as a prompt
-  autoload -U promptinit; promptinit
-  prompt spaceship
+# Set Spaceship ZSH as a prompt
+source /usr/local/opt/spaceship/spaceship.zsh
 
 # Aliases
 alias typora="open -a typora"
