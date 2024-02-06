@@ -21,14 +21,10 @@ echo "[DIRECTORIES] Done!"
 
 echo "Removing existing config files..."
 rm ~/.zshrc
-rm ~/.ssh/config
-rm ~/.gitconfig
 echo "[CLEAN UP] Done!"
 
 echo "Linking configuration files..."
-ln -s ~/.afterlife/dotfiles/.zshrc ~/.zshrc
-ln -s ~/.afterlife/dotfiles/.ssh_config ~/.ssh/config
-ln -s ~/.afterlife/dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/.afterlife/dotfiles/zshrc ~/.zshrc
 echo "[CONFIG] Done!"
 echo "Configuration done!"
 
