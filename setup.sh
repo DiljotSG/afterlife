@@ -1,5 +1,9 @@
 #!/bin/sh
 
+git pull
+git submodule sync
+git submodule update --init --recursive
+
 brew install mas
 if [[ $1 == *--mas-prev* || $2 == *--mas-prev* ]]
 then
