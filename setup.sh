@@ -28,7 +28,11 @@ rm ~/.zshrc
 echo "[CLEAN UP] Done!"
 
 echo "Linking configuration files..."
-ln -s ~/.afterlife/dotfiles/zshrc ~/.zshrc
+if [[ $(uname -m) == 'arm64' ]]; then
+  ln -s ~/.afterlife/dotfiles/zshrc_as ~/.zshrc
+else
+  ln -s ~/.afterlife/dotfiles/zshrc ~/.zshrc
+fi
 echo "[CONFIG] Done!"
 echo "Configuration done!"
 
@@ -40,7 +44,6 @@ done <./data/brew_list.txt
 echo "[BREW] Done!"
 
 echo "Installing casks..."
-brew tap homebrew/cask-drivers
 while read p; do
   brew install "$p" --cask
 done <./data/cask_list.txt
