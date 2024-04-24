@@ -8,7 +8,7 @@ signal
 spotify
 visual-studio-code
 protonvpn
-cloudflare-warp
 discord
 iina
 github
+minecraft
