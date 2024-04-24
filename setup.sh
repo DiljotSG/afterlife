@@ -28,11 +28,7 @@ rm ~/.zshrc
 echo "[CLEAN UP] Done!"
 
 echo "Linking configuration files..."
-if [[ $(uname -m) == 'arm64' ]]; then
-  ln -s ~/.afterlife/dotfiles/zshrc_as ~/.zshrc
-else
-  ln -s ~/.afterlife/dotfiles/zshrc ~/.zshrc
-fi
+ln -s ~/.afterlife/dotfiles/zshrc ~/.zshrc
 echo "[CONFIG] Done!"
 echo "Configuration done!"
 
