@@ -27,6 +27,18 @@ brew install node
 brew install spaceship
 ```
 
+### Install AutoJump
+
+```shell
+brew install autojump
+```
+
+### Install AutoSuggestions
+
+```shell
+brew install zsh-autosuggestions
+```
+
 #### Font Setup
 
 To get all the functionality of the Spaceship prompt, you need to install the FiraCode font. Follow the instructions [here](https://github.com/tonsky/FiraCode/wiki/Installing).
